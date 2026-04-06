@@ -183,7 +183,6 @@ export default function App() {
             src="/images/necklace.jpg" 
             alt="Hero Background" 
             className="w-full h-full object-cover blur-[1px]"
-            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -385,7 +384,6 @@ export default function App() {
                     src={product.image} 
                     alt={product.name}
                     className="w-full h-full object-cover"
-                    referrerPolicy="no-referrer"
                   />
                   
                   {/* Overlay */}
